@@ -1,0 +1,103 @@
+{
+  "cabs": [
+    {
+      "id": "1",
+      "cabName": "Mini Cab",
+      "driverName": "Ramesh Kumar",
+      "driverPhone": "9876543210",
+      "vehicleNumber": "KA01AB1234",
+      "carModel": "Swift",
+      "seats": 4,
+      "farePerKm": 10,
+      "status": "Available",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "cabName": "Sedan",
+      "driverName": "Suresh Patel",
+      "driverPhone": "9876500001",
+      "vehicleNumber": "KA02BC5678",
+      "carModel": "Dzire",
+      "seats": 4,
+      "farePerKm": 15,
+      "status": "Available",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "3",
+      "cabName": "SUV",
+      "driverName": "Mahesh Reddy",
+      "driverPhone": "9876500002",
+      "vehicleNumber": "KA03CD9012",
+      "carModel": "Innova",
+      "seats": 6,
+      "farePerKm": 20,
+      "status": "Available",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "4",
+      "cabName": "Luxury",
+      "driverName": "Kiran Singh",
+      "driverPhone": "9876500003",
+      "vehicleNumber": "KA04DE3456",
+      "carModel": "BMW",
+      "seats": 4,
+      "farePerKm": 35,
+      "status": "Available",
+      "image": "https://via.placeholder.com/150"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "customerName": "Hanuma",
+      "phone": "9998887776",
+      "pickupLocation": "Noida",
+      "dropLocation": "Delhi",
+      "bookingDate": "2026-03-15",
+      "cabId": 2,
+      "cabType": "Sedan",
+      "driverName": "Suresh Patel",
+      "fare": 450,
+      "status": "Booked"
+    },
+    {
+      "id": "2",
+      "customerName": "Yayu",
+      "phone": "9876543211",
+      "pickupLocation": "Indiranagar",
+      "dropLocation": "Airport",
+      "bookingDate": "2026-03-16",
+      "cabId": 3,
+      "cabType": "SUV",
+      "driverName": "Mahesh Reddy",
+      "fare": 800,
+      "status": "Completed"
+    },
+    {
+      "id": "1cb3",
+      "customerName": "Kris",
+      "phone": "94848487",
+      "pickupLocation": "Amdabad",
+      "dropLocation": "Bhunaaveshar",
+      "cabId": "1",
+      "cabType": "Mini Cab",
+      "driverName": "Ramesh Kumar",
+      "status": "Booked"
+    },
+    {
+      "id": "2d57",
+      "customerName": "Ram",
+      "phone": "9876543211",
+      "pickupLocation": "edan garden",
+      "dropLocation": "greenwitch ",
+      "cabId": "2",
+      "cabType": "Sedan",
+      "driverName": "Suresh Patel",
+      "status": "Booked"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
